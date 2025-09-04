@@ -46,7 +46,7 @@ const Hero = () => {
               <Badge
                 key={tech}
                 variant="secondary"
-                className="px-4 py-2 text-sm bg-muted/50 hover:bg-muted transition-all duration-300 hover:scale-105"
+                className="px-4 py-2 text-sm bg-sky-600 hover:bg-muted transition-all duration-300 hover:scale-105"
               >
                 {tech}
               </Badge>
@@ -102,5 +102,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
